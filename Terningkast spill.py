@@ -3,12 +3,16 @@ import time
 import matplotlib.pyplot as plt
 
 
+print("Adding some new stuff here")
+
 # init player score to 0
 player1_score = 0
 player2_score = 0
 player1_sumscore = 0
 player2_sumscore = 0
 count = 0
+
+print("let's git it")
 
 while True:
     count += 1
