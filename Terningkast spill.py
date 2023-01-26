@@ -2,7 +2,7 @@ import random
 import time
 import matplotlib.pyplot as plt
 
-
+print("testbranch message")
 print("Adding some new stuff here")
 
 # init player score to 0
@@ -13,11 +13,11 @@ player2_sumscore = 0
 count = 0
 
 print("let's git it")
+print("tester mer git")
 
 while True:
     count += 1
     print("RUNDE", count)
-
 
     # generate random numbers between 1 and 6 for each player
     player1_input = input("Er du klar for å spille?: (j) (n): ")
@@ -37,8 +37,8 @@ while True:
     player2_value = random.randint(1, 6)
 
     # display the values
-    print("Du fikk:", player1_value,"poeng")
-    print("Datamaskinen fikk:",player2_value,"poeng\n")
+    print("Du fikk:", player1_value, "poeng")
+    print("Datamaskinen fikk:", player2_value, "poeng\n")
 
     # display values in pyplot
     x = ['player one', 'player two']
@@ -61,13 +61,14 @@ while True:
         print("Det ble uavgjort.\n")
 
     if player1_sumscore > player2_sumscore & player1_sumscore >= 50:
-            print("Du vant spillet!")
-            break
+        print("Du vant spillet!")
+        break
     elif player2_sumscore >= 50:
         print("Datamaskinen vant spillet...")
         break
 
-print("RESULTAT:\nDu fikk:",player1_sumscore,"poeng \n" "Datamaskinen fikk:",player2_sumscore,"poeng")
+print("RESULTAT:\nDu fikk:", player1_sumscore,
+      "poeng \n" "Datamaskinen fikk:", player2_sumscore, "poeng")
 
 # display final result in pyplot
 x = ['player one', 'player two']
