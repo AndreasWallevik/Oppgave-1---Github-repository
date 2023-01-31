@@ -6,6 +6,7 @@ print("testbranch message")
 print("Adding some new stuff here")
 print("Hello. This is an edit made in branch 1")
 print("..and this is an edit made in branch 2")
+print("Here's and edit made on branch 3")
 
 # init player score to 0
 player1_score = 0
